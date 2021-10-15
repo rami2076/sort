@@ -1,8 +1,6 @@
-name: Expect master and git Push.
-on:
-  push:
-    branches-ignore:
-      - master
+name: Push Any Branch.
+on: [push]
+
 jobs:
   Explore-Github-Actions:
     runs-on: ubuntu-latest

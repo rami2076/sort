@@ -1,12 +1,10 @@
-name: Expect master and git Push.
-on:
-  push:
-    branches-ignore:
-      - master
+name: Any pull request Job.
+on: [pull_request]
 jobs:
   Explore-Github-Actions:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Event name is ${{ github.event_name }}."
       - run: echo "Brnach name is ${{ github.ref }}."
+
 
