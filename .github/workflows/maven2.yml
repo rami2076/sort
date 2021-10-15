@@ -6,5 +6,3 @@ jobs:
     steps:
       - run: echo "Event name is ${{ github.event_name }}."
       - run: echo "Brnach name is ${{ github.ref }}."
-
-
