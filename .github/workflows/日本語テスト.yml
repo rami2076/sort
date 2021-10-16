@@ -4,7 +4,9 @@ on:
     branches-ignore:
       - master
 jobs:
-  日本語ジョブ名:
+  #The workflow is not valid. .github/workflows/日本語テスト.yml (Line: 7, Col: 3): The identifier '日本語ジョブ名' is invalid. IDs may only contain alphanumeric characters, '_', and '-'. IDs must start with a letter or '_' and and must be less than 100 characters.
+  job_id:
+    name: 日本語ジョブ
     runs-on: ubuntu-latest
     steps:
       - run: echo "Event name is ${{ github.event_name }}."
