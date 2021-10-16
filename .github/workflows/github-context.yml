@@ -6,7 +6,7 @@ on:
 
 jobs:
   FIRST-JOB:
-    name: $${{ github.job }}
+    name: ${{ github.job }}
     runs-on: ubuntu-latest
     steps:
       - run: echo "Event name is ${{ github.event_name }}."
