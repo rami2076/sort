@@ -2,7 +2,7 @@ name: Github-Actions. github contexts.
 on:
   push:
     branches:
-      - task/github-action-context/github
+      - task/github-action-context/github**
 
 jobs:
   FIRST-JOB:
