@@ -1,4 +1,4 @@
-name: [PUSH]Github-Actions. github contexts .
+name: PUSH Github-Actions. github contexts .
 on:
   push:
     branches:
