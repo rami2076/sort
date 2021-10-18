@@ -27,5 +27,5 @@ jobs:
       - run: echo "16. Server URL is ${{ github.server_url}}."
       - run: echo "17. Commit id is ${{ github.sha}}."
       - run: echo "18. Github Token is {{ github.token}}."
-      - run: echo "19. Work flow or full path of workflow file is {{ github.workflow}}."
-      - run: echo "20. Default working directory is {{ github.workspace}}."
+      - run: echo "19. Work flow or full path of workflow file is ${{ github.workflow}}."
+      - run: echo "20. Default working directory is ${{ github.workspace}}."
