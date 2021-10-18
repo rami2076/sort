@@ -26,7 +26,6 @@ jobs:
       - run: echo "15. Run attempt is ${{ github.run_attempt }}. Head-label:true,log:true"
       - run: echo "16. Server URL is ${{ github.server_url }}. Head-label:true,log:true"
       - run: echo "17. Commit id is ${{ github.sha }}. Head-label:true,log:true"
-      - run: echo "18. Github Token is ${{ github.token }}."
+      - run: echo "18. ☆Github Token is ${{ github.token }}. Head-label:false,log:true"
       - run: echo "19. Work flow or full path of workflow file is ${{ github.workflow }}. Head-label:true,log:true"
       - run: echo "20. ☆Default working directory is ${{ github.workspace }}. Head-label:false,log:true"
-
